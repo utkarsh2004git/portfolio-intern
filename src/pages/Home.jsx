@@ -10,8 +10,8 @@ const Home = () => {
                 <div className=" flex flex-col justify-center w-2/3 items-center  px-3">
                     <motion.div
                         className=" font-bold"
-                        initial={{ opacity: 0, y: -50 }}
-                        animate={{ opacity: 1, y: 0 }}
+                        initial={{ opacity: 0, x: -50 }}
+                        animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1.5 }}
                     >
                         <>
@@ -36,14 +36,14 @@ const Home = () => {
                     </motion.div>
                 </div>
                 <motion.div
-                    className="hover:scale-95 duration-200 cursor-pointer w-full flex justify-center md:justify-end items-end "
-                    initial={{ opacity: 0, y: -50 }}
-                    animate={{ opacity: 1, y: 0 }}
+                    className=" cursor-pointer w-full flex justify-center md:justify-end items-end "
+                    initial={{ opacity: 0, x: 50 }}
+                    animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1.5 }}
                 >
-                    <div class="relative inline-flex items-center justify-center gap-4 group">
+                    <div className="relative inline-flex items-center justify-center gap-4 group ">
                         <div
-                            class="absolute inset-0 duration-1000 opacity-10 transitiona-all bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-400 rounded-xl blur-lg filter group-hover:opacity-20 group-hover:duration-200"
+                            className="absolute inset-0 duration-1000 opacity-10 transitiona-all bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-400 rounded-xl blur-lg filter group-hover:opacity-20 group-hover:duration-200"
                         ></div>
                         <div className=''>
                             <img
