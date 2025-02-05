@@ -17,6 +17,7 @@ const Header = () => {
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-5 text-lg">
           <a href="#home" className="hover:text-gray-300 hover:underline">Home</a>
+          <a href="#skills" className="hover:text-gray-300 hover:underline">Skills</a>
           <a href="#projects" className="hover:text-gray-300 hover:underline">Portfolio</a>
           <a href="#contact" className="hover:text-gray-300 hover:underline">Contact</a>
         </nav>
@@ -42,6 +43,7 @@ const Header = () => {
             transition={{ duration: 0.4, ease: "easeInOut" }}
           >
             <a href="#home" className="block py-2 hover:text-gray-300">Home</a>
+            <a href="#skills" className="block py-2 hover:text-gray-300">Skills</a>
             <a href="#projects" className="block py-2 hover:text-gray-300">Portfolio</a>
             <a href="#contact" className="block py-2 hover:text-gray-300">Contact</a>
           </motion.nav>
