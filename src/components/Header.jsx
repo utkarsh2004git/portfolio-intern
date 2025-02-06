@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { HiMenu } from "react-icons/hi";
+// import { HiMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
 import { motion, AnimatePresence } from "framer-motion";
-import { div } from "framer-motion/client";
+import { RiMenu3Line } from "react-icons/ri";
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -18,8 +18,8 @@ const Header = () => {
                 {/* Desktop Menu */}
                 <nav className="hidden md:flex space-x-5 text-lg">
                     <a href="#home" className="hover:text-gray-300 hover:underline">Home</a>
-                    <a href="#skills" className="hover:text-gray-300 hover:underline">Skills</a>
-                    <a href="#projects" className="hover:text-gray-300 hover:underline">Portfolio</a>
+                    {/* <a href="#skills" className="hover:text-gray-300 hover:underline">Skills</a> */}
+                    <a href="#portfolio" className="hover:text-gray-300 hover:underline">Portfolio</a>
                     <a href="#contact" className="hover:text-gray-300 hover:underline">Contact</a>
                 </nav>
 
@@ -29,7 +29,7 @@ const Header = () => {
                     onClick={() => setMenuOpen(!menuOpen)}
                     whileTap={{ scale: 0.8 }} // Click effect
                 >
-                    {menuOpen ? <IoClose size={30} /> : <HiMenu size={30} />}
+                    {menuOpen ? <IoClose size={30} /> : <RiMenu3Line size={30} />}
                 </motion.button>
             </div>
 
@@ -51,8 +51,8 @@ const Header = () => {
                                 <IoClose size={30} />
                             </button>
                             <a href="#home" className="block py-2 hover:text-gray-300" onClick={()=>setMenuOpen(false)}>Home</a>
-                            <a href="#skills" onClick={()=>setMenuOpen(false)} className="block py-2 hover:text-gray-300" >Skills</a>
-                            <a href="#projects" className="block py-2 hover:text-gray-300" onClick={()=>setMenuOpen(false)} >Portfolio</a>
+                            {/* <a href="#skills" onClick={()=>setMenuOpen(false)} className="block py-2 hover:text-gray-300" >Skills</a> */}
+                            <a href="#portfolio" className="block py-2 hover:text-gray-300" onClick={()=>setMenuOpen(false)} >Portfolio</a>
                             <a href="#contact" className="block py-2 hover:text-gray-300" onClick={()=>setMenuOpen(false)} >Contact</a>
                         </motion.nav>
                     </div>
