@@ -6,13 +6,13 @@ import HireMeBtn from '../components/HireMeBtn';
 const Home = () => {
     return (
         <>
-            <div id="home" className="bg-gray-900 text-white  flex items-center justify-center  px-0 md:px-10 flex-col-reverse pt-20 md:pt-10 md:flex-row h-full min-h-screen">
-                <div className=" flex flex-col justify-center w-2/3 items-center  px-3">
+            <div id="home" className="bg-gray-900 text-white  flex items-center justify-center   md:px-10 flex-col-reverse pt-20 md:pt-10 md:flex-row h-full min-h-screen">
+                <div className=" flex flex-col  justify-center w-9/12   md:w-2/3 items-center text-center md:text-left ">
                     <motion.div
                         className=" font-bold"
                         initial={{ opacity: 0, x: -50 }}
                         animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 1.5 }}
+                        transition={{ duration: 1.2 }}
                     >
                         <>
                             <p className='text-3xl md:text-4xl'>Hi, I'm</p>
@@ -39,7 +39,7 @@ const Home = () => {
                     className=" cursor-pointer w-full flex justify-center md:justify-end items-end "
                     initial={{ opacity: 0, x: 50 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 1.5 }}
+                    transition={{ duration: 1.2 }}
                 >
                     <div className="relative inline-flex items-center justify-center gap-4 group ">
                         <div
