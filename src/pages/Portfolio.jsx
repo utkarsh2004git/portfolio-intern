@@ -8,7 +8,7 @@ const Portfolio = () => {
     return (
         <>
         <hr className="opacity-10"/>
-            <section  className="bg-gray-900 text-white py-16 px-6" id="portfolio">
+            <section  className="bg-gray-900 text-white py-20 px-6" id="portfolio">
                 <div className="text-center mb-12">
                     <motion.h1
                         className="text-4xl font-bold"
@@ -30,7 +30,7 @@ const Portfolio = () => {
                     </motion.p>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-15 md:px-5 ">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto  md:px-5 ">
                     {projects.map((project, index) => (
                         <motion.div
                             key={project.id}

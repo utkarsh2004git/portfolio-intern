@@ -10,7 +10,7 @@ const projects = [
     {
         id: 1,
         title: "Foody App",
-        description: "A food ordering platform with an admin panel.",
+        description: "Fully functional food ordering platform with an admin panel.",
         image:Foody,
         link: "https://foody-delivery.onrender.com/",
     },
