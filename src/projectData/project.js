@@ -1,9 +1,10 @@
 
 import TicTacToe from "../assets/TicTacToe.png"
-import AddEmployee from "../assets/AddEmployee.png"
-import Foody from "../assets/Foody.png"
-import weatherApp from "../assets/weatherApp.png"
+import AddEmployee from "../assets/AddEmployee.webp"
+import Foody from "../assets/Foody.webp"
+import weatherApp from "../assets/weatherApp.webp"
 import portfolio from "../assets/portfolio.png"
+import pricePrediction from "../assets/price-prediction.webp"
 
 
 const projects = [
@@ -37,6 +38,13 @@ const projects = [
     },
     {
         id: 5,
+        title: "Apartment Price prediction",
+        description: "Apratment price prediction project using react+python.",
+        image: pricePrediction,
+        link: "https://github.com/utkarsh2004git/Ml-project",
+    },
+    {
+        id: 6,
         title: "My Portfolio",
         description: "Portfolio created by react@vite",
         image: portfolio,
